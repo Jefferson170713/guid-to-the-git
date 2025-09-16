@@ -13,9 +13,13 @@ header {
     padding: 10px 20px;
     margin: 20px 10px;
     border: 1px solid var(--color-gray-300);
-    background-color: var(--color-gray-100);
+    background-color: var(--color-gray-50);
     border-radius: 15px;
     max-width: 50%;
+}
+
+.header:hover {
+    background-color: var(--color-gray-100);
 }
 
 .header-i-git i {
