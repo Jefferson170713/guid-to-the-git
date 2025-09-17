@@ -3,7 +3,7 @@
 @import url('./typography.css');
 @import url('./layout.css');
 @import url('./header.css');
-@import url('./css/header.css');
+@import url('./mobile/header.css');
 @import url('./footer.css');
 @import url('./content.css');
 @import url('./navigation.css');
