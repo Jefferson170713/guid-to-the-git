@@ -35,3 +35,39 @@
     color: var(--color-primary-600);
     text-decoration: underline;
 }
+
+.main-content-text {
+    border-top: 1px solid var(--color-gray-300);
+    border-bottom: 1px solid var(--color-gray-300);
+}
+
+.main-content-p {
+    padding: 10px 15px;
+    text-align: justify;
+    line-height: 1;
+    color: var(--color-gray-900);
+}
+
+.main-content-p span {
+    font-weight: bold;
+    color: var(--color-primary-600);
+}
+
+.main-content-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 75%;
+    height: auto;
+    margin: 10px auto;
+    /* border: 1px solid var(--color-gray-300); */
+    border-radius: 10px;
+}
+
+.main-content-img-p {
+    padding: 0 15px 10px 15px;
+    text-align: justify;
+    font-size: 0.8rem;
+    color: var(--color-gray-700);
+    font-style: italic;
+}
